@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShellTabs.UserPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Usuario" Margin="18" FontSize="30"
+                   FontAttributes="Bold" HorizontalTextAlignment="Center"
+                   TextColor="Red"/>
+            <Label Text="Bienvenida"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="usuario.jpg"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShellTabs.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenido a tu sección HOME" Margin="18" FontSize="30"
+                   FontAttributes="Bold" HorizontalTextAlignment="Center"
+                   TextColor="Orange"/>
+            <Label Text="Top 10 de las mejores series 2021:"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="netflix.jpg"/>
+            <Label Text="Cobra kai , Lucifer , La casa de papel , Los 100 , La niña, El club, Control Z,
+                   The umbrella academy , Insatiable , Chicas buenas."
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
